@@ -1,0 +1,231 @@
+button{
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+  background-color: #cddceffc;
+}
+
+.container {
+  padding: 40px;
+  text-align: center;
+  
+  background-position: center;
+  background-size: cover;
+  position: relative; 
+  
+}
+
+.container1 {
+  
+  width: 80%; /* Set the desired width for the box */
+  height: auto; /* Se the desired height for the box */
+  margin: 0 auto;
+  top: 0;
+  bottom: 0;
+  
+  right: 0;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  
+  
+}
+.container11{
+  display: flex;
+  align-items: top;
+  justify-content: center;
+
+}
+
+.left-side {
+  width: auto;
+  height: 200px;
+  margin: 20px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.options {
+  text-align: center;
+  margin-top: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+padding-bottom: 5%;
+}
+
+.options a {
+  text-decoration: none;
+  color: #333;
+  background-color: #a09999;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+.options a:hover {
+  background-color: #555555;
+  color: #fff;
+}
+
+
+.circle {
+  margin: 20px;
+  width: 200px;
+    height: 200px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #555555;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+#projectbox{
+  max-width: 1500px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin: 0 auto; 
+  left: 0; 
+      right: 0;
+      padding-bottom: 100px;
+}
+.p1{
+  width: 420px;
+        margin: 20px;
+        padding: 20px;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        text-align: center;
+}
+.content{
+  display: flex;
+  align-items: top;
+}
+
+.chl{
+  text-align: left;
+  color: #333333;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.chr{
+  text-align: right;
+  color: #333333;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.image{
+  width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+}
+
+.details{
+  padding-top: 0px;
+  padding-left: 10px;    
+  font-size: 16px;
+  color: #666666;
+  
+}
+
+
+
+
+.header{
+  background-color: #333;
+    color: #fff;
+    padding: 45px;
+    text-align: center;
+}
+.header h1 {
+  margin: 0;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+
+
+i{
+  margin-right: 25px;
+}
+
+.logout {
+  float: right;
+  text-decoration: none;
+  color: #fff;
+  
+  margin-right: 20px;
+  margin-bottom: 10px;
+  
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cddceffc;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    font-family: 'Raleway', sans-serif;
+}
+
+button{
+  padding: 25px 30px;
+  background-color: #ffff;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 4px;
+  overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+button:hover{
+    background: black;
+    color: white;
+    box-shadow: 0 0 5px #0000,
+                0 0 25px #0000,
+                0 0 50px #0000,
+                0 0 200px #0000;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
